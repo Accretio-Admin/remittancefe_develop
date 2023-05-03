@@ -1,0 +1,9 @@
+@tailwind components;
+@layer components {
+  .active-filter-tools {
+    @apply bg-nsCitrineWhite1 border border-nsSunglow1 border-solid;
+  }
+  .deactivate-filter-tools {
+    @apply bg-[unset] border-none;
+  }
+}

@@ -1,0 +1,9 @@
+@tailwind components;
+@layer components {
+  .openMenu {
+    @apply h-[45px];
+  }
+  .closeMenu {
+    @apply h-auto;
+  }
+}
